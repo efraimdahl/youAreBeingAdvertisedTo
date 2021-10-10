@@ -4430,9 +4430,10 @@ function colorComments() {
 
         let color = "rgba(0,0,0,0.50)"
         if(result.score>0){
-            color = "rgba("+(Math.floor(result.score*(255/7))).toString+",0,0,0.50)";
+            color = "rgba(0,"+(Math.floor(Math.abs(result.score)*(255/7))).toString()+",0,0.50)";
         }else{
-            color = "rgba(0,"+(Math.floor(Math.abs(result.score)*(255/7)))+",0,0.50)";
+            color = "rgba("+(Math.floor(Math.abs(result.score)*(255/7))).toString()+",0,0,0.50)";
+            
         }
         console.log(color)
         comments[i].setAttribute("style","background-color: "+color)

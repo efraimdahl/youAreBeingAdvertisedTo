@@ -43,3 +43,5 @@ function youtubeScript() {
     });
     return true;
 }
+
+chrome.extension.getBackgroundPage().console.log('starting extension');
