@@ -1,0 +1,26 @@
+{
+    "name": "You are being Advertised to!",
+    "version": "1.0",
+    "description": "Youtube Ad-enhancer!",
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "https://www.youtube.com/"
+    ],
+    "author": "Efraim Dahl",
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "img/smol.jpg",
+        "32": "img/smol.jpg",
+        "48": "img/smol.jpg"
+      },
+      "default_title": "Are you being advertised to?"
+    },
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "extension.js"
+        ]
+    }
+  }
