@@ -1,7 +1,7 @@
 {
-    "name": "You are being Advertised to!",
+    "name": "Color Comments",
     "version": "1.0",
-    "description": "Youtube Ad-enhancer!",
+    "description": "Colors youtube comments according to their toxicity",
     "permissions": [
         "tabs",
         "webNavigation",
@@ -15,12 +15,12 @@
         "32": "img/smol.jpg",
         "48": "img/smol.jpg"
       },
-      "default_title": "Are you being advertised to?"
+      "default_title": "Colors youtube comments according to their toxicity"
     },
     "manifest_version": 2,
     "background": {
         "scripts": [
-            "extension.js"
+            "background.js"
         ]
     }
   }
