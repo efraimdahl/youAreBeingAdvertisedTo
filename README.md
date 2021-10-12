@@ -1,6 +1,8 @@
 
 # Comment-Toxicity-Meter
 
+![](img/Screenshot.png)
+
 With this browser extension I want to continue my previous exploration of sentiment analysis and use it to change YouTube to reflect their detected toxicity.
 This extension is meant to provoke in several ways, first it can give a brief overview of the comments under a video without necessarily having to read them. This means a user of this extension could quickly by scrolling through the comments recognize a color pattern under each video and then decide whether they want to deal with these comments. Reading overly negative and toxic comments can be mentally taxing, and this tool gives the user a warning, and could influence their decision of further engaging with these comments. 
 On the other hand, sentiment analysis is not perfect, yet it is used to assess people, and their engagement in content. But even the most sophisticated sentiment analyses have their weak spots, their false positives/negatives. This is an (un)intended side-effect of the interaction. The user of the browser extension gets to see how the algorithm (naïve algorithm based on assigning words and emojis with negative and positive numbers, depending how strongly positive or negative the words where considered, and calculating a score based of that.) rates different comments and make their own judgement whether this comment was fairly judged. This comments on machines ability to recognize human intent, and the ethical questions involved when being judged by an obviously flawed (but potentially powerful) algorithm.
